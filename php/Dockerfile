@@ -1,5 +1,4 @@
 FROM php:8.2-fpm
-FROM composer:latest AS composer
 
 RUN apt-get update && apt-get install -y \
       apt-utils \
