@@ -1,7 +1,7 @@
 # Сайт для АНО "Реалибилитационный центр для детей "АВРОРА"
 
 ## О сайте
-<img src="https://raw.githubusercontent.com/Bronnikova98/website_avrora/master/public/images/avrora_logo.png" width="100">
+<img src="https://raw.githubusercontent.com/Bronnikova98/DIPLOM/master/src/public/images/avrora_logo.png" width="100">
 
 Сайт разработан для автономной некоммерческой организации "Реабилитационный центр доя детей "АВРОРА"
 
@@ -22,15 +22,30 @@ Docker - открытая платформа для разработки, дос
 MySQL -  система управления базами данных
 
 ## Инструкция по установке и запуску
-1. Клонирование репозитория через терминал<br>
-`git clone https://github.com/Bronnikova98/website_avrora.git`
+1. Склонируйте репозиторий через терминал<br>
+`git clone https://github.com/Bronnikova98/DIPLOM.git`
 
 2. Запустите приложение Docker Desktop<br>
 
-3. Откройте папку с проектом в среде разработки. Через терминал перейдите в папку avrora-app<br>
+3. Откройте папку с проектом в среде разработки или через терминал. Перейдите в папку DIPLOM<br>
 `cd DIPLOM`
 
-4. Выполните команду чтобы запустить все контейнеры Docker<br>
+4. Переименуйте файл .env.example в .env и соберите проект<br>
+`docker-compose build`
+
+5. Запустите контейнеры, зайдите в контейнер avrora и установите composer<br>
+`docker-compose up -d`<br>
+`docker exec -it ID_КОНТЕЙНЕРА bash`<br>
+`composer install`
+
+
+
+6. Соберите проект и запустите проект<br>
+`docker-compose build`<br>
 `docker-compose up`
 
 После запуска контейнеров вы можете получить доступ к проекту в своем веб-браузере по адресу: http://localhost:8080
+
+Для дальнейшей работы с проектом настройте файл .env<br>
+Установить значение APP_KEY в файле .env можно с помощью команды 
+`php artisan key:generate`
