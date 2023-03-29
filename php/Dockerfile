@@ -17,8 +17,7 @@ RUN apt-get update && apt-get install -y \
 
 # Install composer
 ENV COMPOSER_ALLOW_SUPERUSER=1
-RUN curl -s https://getcomposer.org/installer | php -- \
-    --filename=composer \
-    --install-dir=/usr/local/bin
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer && \
+    composer install
 
 WORKDIR /var/www
