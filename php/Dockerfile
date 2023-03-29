@@ -14,10 +14,14 @@ RUN apt-get update && apt-get install -y \
       apt-get clean && \
       rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+RUN php artisan key:generate
 
 # Install composer
 
-RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
-ENV COMPOSER_ALLOW_SUPERUSER 1
-RUN composer install
+
+# RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+# ENV COMPOSER_ALLOW_SUPERUSER 1
+# RUN composer install
+
+
 WORKDIR /var/www
