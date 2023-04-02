@@ -22,9 +22,13 @@
     <div class="container">
         <div class="row">
             <div class="d-flex col-sm-12 col-lg-3 justify-content-center">
+                <a href="/">
                 <img class="img-fluid header_logo_img" src="/images/avrora_logo.png"
                     alt="Логотип сайта 
-                Реабилитационный центр для детей АВРОРА, девочка с голубем">
+                Реабилитационный центр для детей АВРОРА, девочка с голубем"></a>
+                <div class="glow-wrap">
+                    <i class="glow"></i>
+                </div>
             </div>
             <div class="d-flex col-sm-6 col-lg-3 align-items-center justify-content-center mb-2">
                 <img class="img-fluid header_maps_icon" src="/images/maps.png"
