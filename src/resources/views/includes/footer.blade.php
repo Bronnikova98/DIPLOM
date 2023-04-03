@@ -1,5 +1,8 @@
 <footer>
-    <div class="container">
+    <div class="container footer_container">
+        <div class="d-flex flex-row-reverse footer_btn">
+            <div class="footer_btn_up footer_btn_up_hide"></div>
+        </div>
         <div class="row">
             <div class="d-flex col-sm-6 col-lg-3 justify-content-center">
                 <div class="col">
@@ -61,9 +64,7 @@
         </div>
 
     </div>
-    <div class="d-flex flex-row-reverse">
-        <div class="footer_btn_up footer_btn_up_hide"></div>
-    </div>
+    
     <div class="footer_line">
         <div class="d-flex container footer_line align-items-center">
             <p class="footer_copyright">&#169 АНО «Реабилитационный Центр для Детей «АВРОРА»</p>

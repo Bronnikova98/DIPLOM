@@ -17,17 +17,18 @@
                         {{-- <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" class="home_carousel_indicator"aria-label="Slide 2"></button> --}}
                     </div>
 
-                    
+
                     <div class="carousel-item active " style="background-image: url('/images/igrushki41.jpg');">
-                            
+
                         <div class="home_carousel_text text-center">
-                            
-                              
-                           <p>Реабилитационный центр "Аврора" приглашает Ваших детей получить оздоровительные услуги по полустационарной форме</p>
-                          
+
+
+                            <p>Реабилитационный центр "Аврора" приглашает Ваших детей получить оздоровительные услуги по
+                                полустационарной форме</p>
+
                         </div>
-                
-                      </div>
+
+                    </div>
 
 
                 </div>
@@ -36,77 +37,164 @@
         </div>
     </div>
 
-   
-    <div class="container"><p class="home_subtitle">Наши преимущества</p>
+
+    <div class="container">
+        <p class="home_subtitle">Наши преимущества</p>
         <div class="container">
             <div class="row">
-                <div class="d-flex col-sm-6 col-lg-3 justify-content-center">
-                    <div class="col text-center">
+                <div class="d-flex col-sm-6 col-lg-3 justify-content-center mb-2">
+                    
                         <div class="card" style="border: none;">
-                            <img src="/images/icon_heart.png" class="" alt="..." style="height: 100px;
+                            <img src="/images/icon_heart.png" class="" alt="..."
+                                style="height: 100px;
                             display: block;
                             margin-left: auto;
                             margin-right: auto;">
-                            <div class="card-body d-flex justify-content-center">
-                              <p class="card-text" style="font-size: 21px; color: #DB5C86; font-weight: 500; max-width: 200px;">Широкий спектр услуг</p>
+                            <div class="card-body text-center">
+                                <p class="card-text"
+                                    style="font-size: 21px; color: #DB5C86; font-weight: 500; max-width: 200px;">Широкий
+                                    спектр услуг</p>
                             </div>
-                          </div>      
-                    </div>
+                        </div>
+                    
                 </div>
                 <div class="d-flex col-sm-6 col-lg-3 justify-content-center mb-2">
-                    <div class="col text-center">
+                    
                         <div class="card" style="border: none;">
-                            <img src="/images/icon_national.png" class="" alt="..." style="height: 100px; display: block;
+                            <img src="/images/icon_national.png" class="" alt="..."
+                                style="height: 100px; display: block;
                             margin-left: auto;
                             margin-right: auto;">
-                            <div class="card-body d-flex justify-content-center">
-                              <p class="card-text" style="font-size: 21px; color: #DB5C86; font-weight: 500; max-width: 200px;">Профессиональный персонал</p>
+                            <div class="card-body text-center">
+                                <p class="card-text"
+                                    style="font-size: 21px; color: #DB5C86; font-weight: 500; max-width: 200px;">
+                                    Профессиональный персонал</p>
                             </div>
-                          </div>                        
-                    </div>
-    
+                        </div>
+                    
+
                 </div>
                 <div class="d-flex col-sm-6 col-lg-3 justify-content-center mb-2">
-                    <div class="col text-center">
+                   
                         <div class="card" style="border: none;">
-                            <img src="/images/icon_people.png" class="" alt="..." style="height: 100px; display: block;
+                            <img src="/images/icon_people.png" class="" alt="..."
+                                style="height: 100px; display: block;
                             margin-left: auto;
                             margin-right: auto;">
-                            <div class="card-body d-flex justify-content-center">
-                              <p class="card-text" style="font-size: 21px; color: #DB5C86; font-weight: 500; max-width: 200px;">Оказание помощи ежедневно</p>
+                            <div class="card-body text-center">
+                                <p class="card-text"
+                                    style="font-size: 21px; color: #DB5C86; font-weight: 500; max-width: 200px;">Оказание
+                                    помощи ежедневно</p>
                             </div>
-                          </div>  
-                        
-    
-    
-                    </div>
-    
+                        </div>
+
+
+
+
                 </div>
-                <div class="d-flex col-sm-6 col-lg-3 justify-content-center">
-                    <div class="col text-center">
+                <div class="d-flex col-sm-6 col-lg-3 justify-content-center mb-2">
+                    
                         <div class="card" style="border: none;">
-                            <img src="/images/icon_holding.png" class="" alt="..." style="height: 100px; display: block;
+                            <img src="/images/icon_holding.png" class="" alt="..."
+                                style="height: 100px; display: block;
                             margin-left: auto;
                             margin-right: auto;">
-                            <div class="card-body d-flex justify-content-center">
-                              <p class="card-text" style="font-size: 21px; color: #DB5C86; font-weight: 500; max-width: 200px;">Индивидуальная программа</p>
+                            <div class="card-body text-center">
+                                <p class="card-text"
+                                    style="font-size: 21px; color: #DB5C86; font-weight: 500; max-width: 200px;">
+                                    Индивидуальная программа</p>
                             </div>
-                          </div>  
-    
-                      
-    
-    
-    
-                    </div>
-    
+                        </div>
+
+
+
+
+
+                    
+
                 </div>
             </div>
-    
+
         </div>
-    
-    </div>
-   
-    
 
     
+    <p class="home_subtitle">Новости</p>
+</div>
+    <div class="home_background">
+        <div class="container">
+            
+            <div class="row">
+                <div class="d-flex col-sm-6 col-lg-3 justify-content-center mb-2 mt-2">
+                    <div class="card">
+                        <img src="/images/1880.jpeg" class="" alt="..." style="object-fit: cover; min-height:240px;">
+                        <div class="card-body">
+                            <a href="#">
+                            <p class="card-title" style="font-size: 19px; color: #000000; font-weight: 500; ">Заголовок новости</p>
+                            </a>
+                                <p class="card-text"
+                                style="font-size: 17px; color: #353333; ">
+                                Текст новости</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="d-flex col-sm-6 col-lg-3 justify-content-center mb-2 mt-2">
+
+                    <div class="card">
+                        <img src="/images/kids1.jpg" class="" alt="..." style="object-fit: cover; min-height:240px;">
+                        <div class="card-body">
+                            <a href="#">
+                            <p class="card-title" style="font-size: 19px; color: #000000; font-weight: 500; ">Заголовок новости</p>
+                            </a>
+                                <p class="card-text"
+                                style="font-size: 17px; color: #353333; ">
+                                Текст новости</p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="d-flex col-sm-6 col-lg-3 justify-content-center mb-2 mt-2">
+
+                    <div class="card">
+                        <img src="/images/kids2.jpg" class="" alt="..." style="object-fit: cover; min-height:240px;">
+                        <div class="card-body">
+                            <a href="#">
+                            <p class="card-title" style="font-size: 19px; color: #000000; font-weight: 500; ">Заголовок новости</p>
+                            </a>
+                                <p class="card-text"
+                                style="font-size: 17px; color: #353333; ">
+                                Текст новости</p>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+                <div class="d-flex col-sm-6 col-lg-3 justify-content-center mb-2 mt-2">
+
+                    <div class="card">
+                        <img src="/images/image5.png" class="" alt="..." style="object-fit: cover; min-height:240px;">
+                        <div class="card-body">
+                            <a href="#">
+                            <p class="card-title" style="font-size: 19px; color: #000000; font-weight: 500; ">Заголовок новости</p>
+                            </a>
+                                <p class="card-text"
+                                style="font-size: 17px; color: #353333; ">
+                                Текст новости</p>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
 @endsection

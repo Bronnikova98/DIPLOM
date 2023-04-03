@@ -1,5 +1,6 @@
 <header>
-    <div class="d-flex flex-row-reverse">
+    <div class="d-flex flex-row-reverse header_third_party_resources">
+        
 
         <button class="d-flex header_third_party_resources_btn flex-row-reverse" type="button" data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img class="header_view_details_icon"
@@ -30,7 +31,7 @@
                     <i class="glow"></i>
                 </div>
             </div>
-            <div class="d-flex col-sm-6 col-lg-3 align-items-center justify-content-center mb-2">
+            <div class="d-flex col-sm-6 col-lg-3 align-items-center mb-2">
                 <img class="img-fluid header_maps_icon" src="/images/maps.png"
                     alt="Адрес Реабилитационный центр для детей АВРОРА, Нижний Тагил">
 
@@ -40,7 +41,8 @@
                 </div>
 
             </div>
-            <div class="d-flex col-sm-6 col-lg-3 align-items-center justify-content-center mb-2">
+            <div class="d-flex col-sm-6 col-lg-3 align-items-center mb-2 justify-content-center">
+                <div class="d-flex justify-content-center">
                 <img class="img-fluid header_phone_icon" src="/images/phone.png"
                     alt="Номера телефонов Реабилитационный центр для детей АВРОРА, Нижний Тагил">
 
@@ -48,7 +50,7 @@
                     <p class="header_numbers">+7 (3435) 111-111 <br>
                         +7 (3435) 222-111</p>
                     <p class="header_working_hours">8:00 - 20:00</p>
-                </div>
+                </div></div>
             </div>
             <div class="d-flex col-sm-12 col-lg-3 align-items-center justify-content-center">
                 <button type="button" class="header_personal_area_btn">Личный кабинет</button>
