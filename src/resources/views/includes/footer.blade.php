@@ -4,7 +4,7 @@
             <div class="footer_btn_up footer_btn_up_hide"></div>
         </div>
         <div class="row">
-            <div class="d-flex col-sm-6 col-lg-3 justify-content-center">
+            <div class="d-flex col-sm-6 col-lg-3 justify-content-center mb-2 footer_container_info">
                 <div class="col">
                     <p class="footer_title">Информация</p>
                     <ul>
@@ -12,12 +12,9 @@
                         <li class="footer_menu_item"><a href="">Услуги</a></li>
                         <li class="footer_menu_item"><a href="">Пациентам</a></li>
                     </ul>
-
-
-
                 </div>
             </div>
-            <div class="d-flex col-sm-6 col-lg-3 justify-content-center mb-2">
+            <div class="d-flex col-sm-6 col-lg-3 justify-content-center mb-2 footer_container_center">
                 <div class="col">
                     <p class="footer_title">Центр</p>
                     <ul>
@@ -31,7 +28,7 @@
                 </div>
 
             </div>
-            <div class="d-flex col-sm-6 col-lg-3 justify-content-center mb-2">
+            <div class="d-flex col-sm-6 col-lg-3 justify-content-center mb-2 footer_container_profile">
                 <div class="col">
                     <p class="footer_title">Профиль</p>
                     <ul>
@@ -43,7 +40,7 @@
                 </div>
 
             </div>
-            <div class="d-flex col-sm-6 col-lg-3 justify-content-center">
+            <div class="d-flex col-sm-6 col-lg-3 justify-content-center footer_container_social">
                 <div class="col">
                     <p class="footer_title">Социальные сети</p>
 

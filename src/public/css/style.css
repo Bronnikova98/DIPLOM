@@ -58,6 +58,7 @@ ul {
     font-weight: 500;
     font-size: 18px;
     color: #000;
+    max-width: 250px;
 }
 
 .header_show_map {
@@ -250,6 +251,22 @@ ul {
     margin-bottom: 10px;
 }
 
+.footer_container_info{
+    padding-left: 90px;
+}
+
+.footer_container_center{
+    padding-left: 90px;
+}
+
+.footer_container_profile{
+    padding-left: 90px;
+}
+
+.footer_container_social{
+    padding-left: 90px;
+}
+
 .home_background {
     background-color: #FCF6F5;
 
@@ -309,4 +326,60 @@ ul {
     padding-top: 20px;
     padding-bottom: 40px;
 
+}
+.about_title{
+    font-size: 21px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.login_title{
+    font-size: 21px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.login_background{
+    background-color: #FCF6F5;
+
+    padding: 20px;
+}
+
+.login_form_email_label{
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.login_form_email_input{
+    width: 400px;
+    height: 40px;
+    
+}
+
+.login_form_password_label{
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.login_form_password_input{
+    width: 400px;
+    height: 40px;
+    
+}
+
+.required::before{
+    content: '*';
+    color: #DB5C86;
+    margin-right: 3px;
+}
+
+.form-control:focus {
+    border-color: #DB5C86;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px #fff;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px #fff;
 }
