@@ -6,23 +6,23 @@ use Closure;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 
-class AdminMiddleware
+class ActiveMiddleware
 {
     /**
      * Handle an incoming request.
      *
      * @param  \Closure(\Illuminate\Http\Request): (\Symfony\Component\HttpFoundation\Response)  $next
      */
-    public function handle(Request $request, Closure $next): Response
+    public function handle(Request $request, Closure $next)
     {
-        if($this->isAdmin($request)){
+        if ($this->isActive($request)){
             return $next($request);
         }
-        abort(403);
+        
     }
 
-    protected function isAdmin(Request $request){
-        // return $request->user()->admin;
+    protected function isActive(Request $request){
         return false;
+
     }
 }

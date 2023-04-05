@@ -2,10 +2,10 @@
 use App\Http\Controllers\Admin\PostController;
 use Illuminate\Support\Facades\Route;
 
-// Маршруты администратора в 
+// Маршруты администратора
 
 //После реализации страниц в кабинете пользователя добавить middleware('auth')
-// Route::prefix('admin')->middleware('auth')->group(function () {
+// Route::prefix('admin')->middleware('auth', 'active', 'admin')->group(function () {
 
 Route::prefix('admin')->group(function () {
     // Главная страница админ.панели
