@@ -497,3 +497,38 @@ ul {
 .register_log:hover {
     color: #DB5C86 !important;
 }
+
+.news_title{
+    font-size: 21px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contacts_title{
+    font-size: 21px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.patients_title{
+    font-size: 21px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.services_title{
+    font-size: 21px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.specialists_title{
+    font-size: 21px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

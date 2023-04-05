@@ -70,7 +70,7 @@
                                 </div>
                                 <div class="mb-3">
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <a class="login_reg" href="/register">
+                                        <a class="login_reg" href="{{route('register')}}">
                                             <p>Регистрация</p>
                                         </a>
                                     </div>

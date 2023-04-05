@@ -54,13 +54,10 @@
                 </div>
             </div>
             <div class="d-flex col-sm-12 col-lg-3 align-items-center justify-content-center">
-                {{-- <form action="/login">
-                    <button type="submit" class="header_personal_area_btn"> Личный кабинет</button>
-                </form> --}}
 
-                <form action="/login" method="get">
+                <form action="{{ route('login') }}" method="get">
                     <button class="header_personal_area_btn" type="submit">Личный кабинет</button>
-                  </form>
+                </form>
 
             </div>
         </div>
@@ -79,22 +76,22 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">О центре</a>
+                            <a class="nav-link active" aria-current="page" href="{{ route('about') }}">О центре</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Новости</a>
+                            <a class="nav-link" href="{{ route('news') }}">Новости</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Специалисты</a>
+                            <a class="nav-link" href="{{ route('specialists') }}">Специалисты</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Пациентам</a>
+                            <a class="nav-link" href="{{ route('patients') }}">Пациентам</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Услуги</a>
+                            <a class="nav-link" href="{{ route('services') }}">Услуги</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Контакты</a>
+                            <a class="nav-link" href="{{ route('contacts') }}">Контакты</a>
                         </li>
 
                     </ul>

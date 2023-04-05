@@ -7,11 +7,14 @@ use Illuminate\Http\Request;
 class NewsController extends Controller
 {
     public function index(){
-        return 'Страница новостей';
+
+        $posts = [1, 2, 3, 4];
+        $foo = 'новость';
+        return view('news.index', compact('posts', 'foo'));
     }
 
     public function show()
     {
-        return 'Страница отдельной новости';
+        return view('news.show');
     }
 }

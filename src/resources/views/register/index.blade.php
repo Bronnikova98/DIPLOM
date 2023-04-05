@@ -81,7 +81,7 @@
 
                                 <div class="mb-3">
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <a class="register_log" href="/login">
+                                        <a class="register_log" href="{{ route('login') }}">
                                             <p>Авторизация</p>
                                         </a>
                                     </div>

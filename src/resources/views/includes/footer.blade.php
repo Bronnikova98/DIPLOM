@@ -8,9 +8,9 @@
                 <div class="col">
                     <p class="footer_title">Информация</p>
                     <ul>
-                        <li class="footer_menu_item"><a href="">Специалисты</a></li>
-                        <li class="footer_menu_item"><a href="">Услуги</a></li>
-                        <li class="footer_menu_item"><a href="">Пациентам</a></li>
+                        <li class="footer_menu_item"><a href="{{ route('specialists') }}">Специалисты</a></li>
+                        <li class="footer_menu_item"><a href="{{ route('services') }}">Услуги</a></li>
+                        <li class="footer_menu_item"><a href="{{ route('patients') }}">Пациентам</a></li>
                     </ul>
                 </div>
             </div>
@@ -18,13 +18,10 @@
                 <div class="col">
                     <p class="footer_title">Центр</p>
                     <ul>
-                        <li class="footer_menu_item"><a href="">О центре</a></li>
-                        <li class="footer_menu_item"><a href="">Новости</a></li>
-                        <li class="footer_menu_item"><a href="">Контакты</a></li>
+                        <li class="footer_menu_item"><a href="{{ route('about') }}">О центре</a></li>
+                        <li class="footer_menu_item"><a href="{{ route('news') }}">Новости</a></li>
+                        <li class="footer_menu_item"><a href="{{ route('contacts') }}">Контакты</a></li>
                     </ul>
-
-
-
                 </div>
 
             </div>
@@ -32,7 +29,7 @@
                 <div class="col">
                     <p class="footer_title">Профиль</p>
                     <ul>
-                        <li class="footer_menu_item"><a href="">Личный кабинет</a></li>
+                        <li class="footer_menu_item"><a href="{{ route('login') }}">Личный кабинет</a></li>
                         <li class="footer_menu_item"><a href="">Политика <br>конфиденциальности</a></li>
                     </ul>
 
@@ -61,7 +58,7 @@
         </div>
 
     </div>
-    
+
     <div class="footer_line">
         <div class="d-flex container footer_line align-items-center">
             <p class="footer_copyright">&#169 АНО «Реабилитационный Центр для Детей «АВРОРА»</p>
