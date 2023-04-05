@@ -1,6 +1,6 @@
 <header>
     <div class="d-flex flex-row-reverse header_third_party_resources">
-        
+
 
         <button class="d-flex header_third_party_resources_btn flex-row-reverse" type="button" data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img class="header_view_details_icon"
@@ -24,8 +24,8 @@
         <div class="row">
             <div class="d-flex col-sm-12 col-lg-3 justify-content-center">
                 <a href="/">
-                <img class="img-fluid header_logo_img" src="/images/avrora_logo.png"
-                    alt="Логотип сайта 
+                    <img class="img-fluid header_logo_img" src="/images/avrora_logo.png"
+                        alt="Логотип сайта 
                 Реабилитационный центр для детей АВРОРА, девочка с голубем"></a>
                 <div class="glow-wrap">
                     <i class="glow"></i>
@@ -43,17 +43,25 @@
             </div>
             <div class="d-flex col-sm-6 col-lg-3 align-items-center mb-2 justify-content-center">
                 <div class="d-flex justify-content-center">
-                <img class="img-fluid header_phone_icon" src="/images/phone.png"
-                    alt="Номера телефонов Реабилитационный центр для детей АВРОРА, Нижний Тагил">
+                    <img class="img-fluid header_phone_icon" src="/images/phone.png"
+                        alt="Номера телефонов Реабилитационный центр для детей АВРОРА, Нижний Тагил">
 
-                <div class="col">
-                    <p class="header_numbers">+7 (3435) 111-111 <br>
-                        +7 (3435) 222-111</p>
-                    <p class="header_working_hours">8:00 - 20:00</p>
-                </div></div>
+                    <div class="col">
+                        <p class="header_numbers">+7 (3435) 111-111 <br>
+                            +7 (3435) 222-111</p>
+                        <p class="header_working_hours">8:00 - 20:00</p>
+                    </div>
+                </div>
             </div>
             <div class="d-flex col-sm-12 col-lg-3 align-items-center justify-content-center">
-                <button type="button" class="header_personal_area_btn">Личный кабинет</button>
+                {{-- <form action="/login">
+                    <button type="submit" class="header_personal_area_btn"> Личный кабинет</button>
+                </form> --}}
+
+                <form action="/login" method="get">
+                    <button class="header_personal_area_btn" type="submit">Личный кабинет</button>
+                  </form>
+
             </div>
         </div>
 
@@ -67,7 +75,7 @@
             </button>
             <div class="container">
 
-            
+
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">

@@ -42,19 +42,11 @@
                                     </div>
                                 </div>
                                 <div class="mb-3">
-                                    </div><span id="captcha-img"></span>
-                                    <button id="reload">Обновить</button>
-                                    <div class="d-flex align-items-center justify-content-center">
-                                        
-                                        <p>Введите текст с картинки</p>
-                                    </div>
+                                    капча
+                                    
+                                    
                                 </div>
-                                <div class="mb-3">
-                                    <div class="d-flex align-items-center justify-content-center">
-                                        
-                                        <input class="" type="text" name="captcha" id="">
-                                    </div>
-                                </div>
+                                
                                 <div class="mb-3">
                                     <div class="d-flex align-items-center justify-content-center">
                                         <button type="submit" class="login_btn">Войти</button>
@@ -67,7 +59,7 @@
                                 </div>
                                 <div class="mb-3">
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <a href=""><p>Регистрация</p></a>
+                                        <a href="/register"><p>Регистрация</p></a>
                                     </div>
                                 </div>
 
