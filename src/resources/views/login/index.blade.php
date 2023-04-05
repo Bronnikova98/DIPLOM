@@ -17,20 +17,33 @@
                         <div class="card-body">
                             <form action="{{ route('login.store') }}" method="POST">
                                 @csrf
-                                <div class="mb-3">
+                                <div class="mb-3 ms-3 me-3">
                                     <label class="login_form_email_label required">Почта:</label>
                                     <div class="d-flex align-items-center justify-content-center">
-                                        
+
                                         <input class="form-control login_form_email_input" type="email" name="email"
                                             id="" autofocus>
                                     </div>
                                 </div>
-                                <div class="mb-3"> 
+                                <div class="mb-3 ms-3 me-3">
                                     <label class="login_form_password_label required">Пароль:</label>
                                     <div class="d-flex align-items-center justify-content-center">
-                                       
+
                                         <input class="form-control login_form_password_input" type="password"
                                             name="password" id="">
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="d-flex align-items-center justify-content-center">
+
+                                        {!! NoCaptcha::display() !!}
+
+                                        @if ($errors->has('g-recaptcha-response'))
+                                            <span class="help-block">
+                                                <strong>{{ $errors->first('g-recaptcha-response') }}</strong>
+                                            </span>
+                                        @endif
+
                                     </div>
                                 </div>
                                 <div class="mb-3">
@@ -41,12 +54,8 @@
                                             меня</label>
                                     </div>
                                 </div>
-                                <div class="mb-3">
-                                    капча
-                                    
-                                    
-                                </div>
                                 
+
                                 <div class="mb-3">
                                     <div class="d-flex align-items-center justify-content-center">
                                         <button type="submit" class="login_btn">Войти</button>
@@ -54,12 +63,16 @@
                                 </div>
                                 <div class="mb-3">
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <a href=""><p>Забыли пароль?</p></a>
+                                        <a class="login_recovery" href="">
+                                            <p>Забыли пароль?</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <div class="mb-3">
                                     <div class="d-flex align-items-center justify-content-center">
-                                        <a href="/register"><p>Регистрация</p></a>
+                                        <a class="login_reg" href="/register">
+                                            <p>Регистрация</p>
+                                        </a>
                                     </div>
                                 </div>
 
@@ -72,3 +85,7 @@
         </div>
     </div>
 @endsection
+
+@push('scripts')
+    {!! NoCaptcha::renderJs() !!}
+@endpush

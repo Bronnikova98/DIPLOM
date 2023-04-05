@@ -11,6 +11,6 @@ class LoginController extends Controller
     }
 
     public function store(){
-        return '';
+        return 'Запрос на авторизацию';
     }
 }

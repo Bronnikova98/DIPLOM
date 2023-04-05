@@ -6,7 +6,6 @@ p {
 a {
     text-decoration: none !important;
     color: #000;
-
 }
 
 li {
@@ -18,7 +17,6 @@ li {
 ul {
     padding-inline-start: 0px;
 }
-
 
 .header_logo_img {
     max-width: 180px;
@@ -38,12 +36,9 @@ ul {
     font-weight: 600;
     font-size: 18px;
     color: #fff;
-
-
 }
 
 .header_personal_area_btn:hover {
-
     transform: scale(1.1);
 }
 
@@ -68,7 +63,6 @@ ul {
 }
 
 .header_show_map:hover {
-
     color: #DB5C86 !important;
 }
 
@@ -143,8 +137,6 @@ ul {
     background-color: #DB5C86;
     text-shadow: 1px 2px 1px black;
     margin-top: 10px;
-
-
 }
 
 .nav-link {
@@ -152,7 +144,6 @@ ul {
     margin-right: 20px;
     -webkit-transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
     transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
-
 }
 
 .nav-link:hover {
@@ -214,7 +205,6 @@ ul {
 }
 
 .footer_vk_icon {
-
     width: 30px;
     margin-right: 10px;
 }
@@ -269,12 +259,10 @@ ul {
 
 .home_background {
     background-color: #FCF6F5;
-
     padding: 10px;
 }
 
 .home_carousel {
-
     padding: 0px;
 }
 
@@ -285,7 +273,6 @@ ul {
 .carousel-item {
     height: 480px;
     background-size: cover;
-
 }
 
 .home_carousel_indicator {
@@ -301,8 +288,6 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .home_carousel_text p {
@@ -316,8 +301,6 @@ ul {
     padding: 10px;
     transform: scale(1, 1.1);
 }
-
-
 
 .home_subtitle {
     color: #000;
@@ -344,7 +327,6 @@ ul {
 
 .login_background {
     background-color: #FCF6F5;
-
     padding: 20px;
 }
 
@@ -355,9 +337,7 @@ ul {
 }
 
 .login_form_email_input {
-
     height: 40px;
-
 }
 
 .login_form_password_label {
@@ -367,9 +347,7 @@ ul {
 }
 
 .login_form_password_input {
-
     height: 40px;
-
 }
 
 .required::before {
@@ -414,4 +392,108 @@ ul {
     font-weight: 600;
     font-size: 18px;
     color: #fff;
+}
+
+.login_recovery {
+    font-size: 16px;
+}
+
+.login_recovery:hover {
+    color: #DB5C86 !important;
+}
+
+.login_reg {
+    font-size: 16px;
+}
+
+.login_reg:hover {
+    color: #DB5C86 !important;
+}
+
+.register_title {
+    font-size: 21px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.register_background {
+    background-color: #FCF6F5;
+    padding: 20px;
+}
+
+.register_form_email_label {
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.register_form_email_input {
+    height: 40px;
+}
+
+.register_form_tel_label{
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.register_form_tel_input{
+    height: 40px;
+}
+
+.register_form_password_label {
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.register_form_password_input {
+    height: 40px;
+}
+
+.register_form_password_confirmation_label{
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.register_form_password_confirmation_input{
+    height: 40px;
+}
+
+.register_processing{
+    color: #DB5C86;  
+}
+
+.register_processing:hover{
+    color: #DB5C86;
+    text-decoration: underline !important;
+}
+
+.register_form_checkbox {
+    margin-right: 10px;
+}
+
+.register_form_checkbox_label {
+    font-size: 1rem;
+}
+
+.register_btn{
+    background-color: #DB5C86;
+    width: 210px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+
+.register_log{
+    font-size: 16px;
+}
+
+.register_log:hover {
+    color: #DB5C86 !important;
 }
