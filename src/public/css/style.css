@@ -18,6 +18,7 @@ ul {
     padding-inline-start: 0px;
 }
 
+/* Шапка сайта */
 .header_logo_img {
     max-width: 180px;
     transition: .3s;
@@ -99,11 +100,10 @@ ul {
 }
 
 .header_third_party_resources_btn:hover {
-    -webkit-transform: scale(1.1) translate(-4px, 4px);
-    -ms-transform: scale(1.1) translate(-4px, 4px);
-    transform: scale(1.1) translate(-4px, 4px);
+    -webkit-transform: scale(1.1) translate(-4px, 3px);
+    -ms-transform: scale(1.1) translate(-4px, 3px);
+    transform: scale(1.1) translate(-4px, 3px);
 }
-
 
 .header_view_details_icon {
     width: 30px;
@@ -152,7 +152,6 @@ ul {
 
 .navbar-collapse {
     justify-content: center;
-    /* text-align: center; */
     display: inline-block;
 }
 
@@ -170,6 +169,7 @@ ul {
     padding-top: 40px;
 }
 
+/* Подвал сайта */
 .footer_line {
     height: 40px;
     background-color: #DB5C86;
@@ -257,6 +257,7 @@ ul {
     padding-left: 90px;
 }
 
+/* Главная страница сайта */
 .home_background {
     background-color: #FCF6F5;
     padding: 10px;
@@ -311,6 +312,7 @@ ul {
 
 }
 
+/* Страница о центре */
 .about_title {
     font-size: 21px;
     font-weight: 500;
@@ -318,6 +320,7 @@ ul {
     padding-bottom: 20px;
 }
 
+/* Страница авторизации */
 .login_title {
     font-size: 21px;
     font-weight: 500;
@@ -410,6 +413,7 @@ ul {
     color: #DB5C86 !important;
 }
 
+/* Страница регистрации */
 .register_title {
     font-size: 21px;
     font-weight: 500;
@@ -432,13 +436,13 @@ ul {
     height: 40px;
 }
 
-.register_form_tel_label{
+.register_form_tel_label {
     margin-right: 10px;
     font-size: 18px;
     font-weight: 500;
 }
 
-.register_form_tel_input{
+.register_form_tel_input {
     height: 40px;
 }
 
@@ -452,21 +456,21 @@ ul {
     height: 40px;
 }
 
-.register_form_password_confirmation_label{
+.register_form_password_confirmation_label {
     margin-right: 10px;
     font-size: 18px;
     font-weight: 500;
 }
 
-.register_form_password_confirmation_input{
+.register_form_password_confirmation_input {
     height: 40px;
 }
 
-.register_processing{
-    color: #DB5C86;  
+.register_processing {
+    color: #DB5C86;
 }
 
-.register_processing:hover{
+.register_processing:hover {
     color: #DB5C86;
     text-decoration: underline !important;
 }
@@ -479,7 +483,7 @@ ul {
     font-size: 1rem;
 }
 
-.register_btn{
+.register_btn {
     background-color: #DB5C86;
     width: 210px;
     height: 40px;
@@ -490,7 +494,7 @@ ul {
     color: #fff;
 }
 
-.register_log{
+.register_log {
     font-size: 16px;
 }
 
@@ -498,35 +502,59 @@ ul {
     color: #DB5C86 !important;
 }
 
-.news_title{
+/* Страница новости */
+.news_title {
     font-size: 21px;
     font-weight: 500;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.contacts_title{
+.news_sorting_btn {
+    background-color: #DB5C86;
+    width: 60px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.news_sorting_btn:hover {
+    transform: scale(1.1);
+}
+
+.news_sorting_icon {
+    width: 30px;
+}
+
+/* Страница контакты */
+.contacts_title {
     font-size: 21px;
     font-weight: 500;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.patients_title{
+/* Страница пациентам */
+.patients_title {
     font-size: 21px;
     font-weight: 500;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.services_title{
+/* Страница услуги */
+.services_title {
     font-size: 21px;
     font-weight: 500;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.specialists_title{
+/* Страница специалисты */
+.specialists_title {
     font-size: 21px;
     font-weight: 500;
     padding-top: 20px;
