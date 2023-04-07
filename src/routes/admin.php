@@ -1,5 +1,5 @@
 <?php
-use App\Http\Controllers\Admin\PostController;
+use App\Http\Controllers\Admin\NewsController;
 use Illuminate\Support\Facades\Route;
 
 // Маршруты администратора
@@ -12,11 +12,11 @@ Route::prefix('admin')->group(function () {
     Route::get('/',)->name('admin');
 
 
-    Route::get('posts', [PostController::class, 'index'])->name('posts');
-    Route::get('posts/create', [PostController::class, 'create'])->name('posts.create');
-    Route::post('posts', [PostController::class, 'store'])->name('posts.store');
-    Route::get('posts/{post}', [PostController::class, 'show'])->name('posts.show');
-    Route::get('posts/{post}/edit', [PostController::class, 'edit'])->name('posts.edit');
-    Route::put('posts/{post}', [PostController::class, 'update'])->name('posts.update');
-    Route::delete('posts/{post}', [PostController::class, 'delete'])->name('posts.delete');
+    Route::get('news', [NewsController::class, 'index'])->name('admin.news');
+    Route::get('news/create', [NewsController::class, 'create'])->name('admin.news.create');
+    Route::post('news', [NewsController::class, 'store'])->name('admin.news.store');
+    Route::get('news/{post}', [NewsController::class, 'show'])->name('admin.news.show');
+    Route::get('news/{post}/edit', [NewsController::class, 'edit'])->name('admin.news.edit');
+    Route::put('news/{post}', [NewsController::class, 'update'])->name('admin.news.update');
+    Route::delete('news/{post}', [NewsController::class, 'delete'])->name('admin.news.delete');
 });

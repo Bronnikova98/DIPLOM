@@ -6,29 +6,31 @@
 
 @section('content')
     <div class="container text-center">
-        <p class="news_title">Новости</p>
+        <p class="news_title">Новости от администратора</p>
 
     </div>
     <div class="container d-flex flex-row-reverse">
-        <button class="d-flex flex-row-reverse news_sorting_btn" type="button"><img class="news_sorting_icon"
-                src="/images/Slider.png" alt=""></button>
+
+        <form action="{{ route('admin.news.create') }}" method="get">
+            <button class="btn" style="border: 1px black solid">Создать новость</button>
+        </form>
 
     </div>
     <div class="container">
 
         @if (@empty($posts))
-            <p>Нет ни одной новости</p>
+            <p>Нет ни одной новости от администратора</p>
         @else
             @foreach ($posts as $post)
-                <div  class="mb-4">
+                <div class="mb-4">
                     <h5>
-                        <a href="{{route('news.show', $post->id)}}">
+                        <a href="{{ route('admin.news.show', $post->id) }}">
                             {{ $post->title }}
                         </a>
                     </h5>
 
                     <p>
-                        {{ $post->content }}
+                        {{ now()->format('d.m.Y H:i:s') }}
                     </p>
 
                 </div>

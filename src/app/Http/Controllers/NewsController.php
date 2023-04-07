@@ -6,15 +6,29 @@ use Illuminate\Http\Request;
 
 class NewsController extends Controller
 {
-    public function index(){
+    public function index()
+    {
+        $post = (object) [
+            'id' => 123,
+            'title' => 'Заголовок новости',
+            'content' => 'текст новости'
 
-        $posts = [1, 2, 3, 4];
-        $foo = 'новость';
-        return view('news.index', compact('posts', 'foo'));
+        ];
+
+        $posts = array_fill(0, 10, $post);
+
+        return view('news.index', compact('posts'));
     }
 
-    public function show()
+    public function show($post)
     {
-        return view('news.show');
+        $post = (object) [
+            'id' => 123,
+            'title' => 'Заголовок новости',
+            'content' => 'текст новости'
+
+        ];
+
+        return view('news.show', compact('post'));
     }
 }

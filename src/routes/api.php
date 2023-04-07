@@ -2,7 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Api\PostController;
+use App\Http\Controllers\Api\NewsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,5 +19,5 @@ use App\Http\Controllers\Api\PostController;
 //     return $request->user();
 // });
 
-Route::get('posts', [PostController::class, 'index'])->name('posts');
-Route::get('posts/{post}', [PostController::class, 'show'])->name('posts.show');
+Route::get('news', [NewsController::class, 'index'])->name('news');
+Route::get('news/{post}', [NewsController::class, 'show'])->name('news.show');
