@@ -6,7 +6,8 @@
         <title>@yield('title', config('app.name')) </title>
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.3/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/css/style.css">            
+        <link rel="stylesheet" href="/css/style.css">     
+        @stack('css')       
    
     </head>
     <body class="antialiased">
@@ -29,5 +30,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.3/js/bootstrap.min.js"></script>
         <script src="/js/btn_up.js"></script>
         @stack('scripts')
+        @stack('js')
     </body>
 </html>
