@@ -36,10 +36,6 @@
                         </div>
                     </div>
 
-
-
-
-
                     <div class="mb-3">
                         <div class="d-flex align-items-center justify-content-center">
                             <button type="submit" class="btn" style="border: 1px black solid">Создать</button>
@@ -63,7 +59,9 @@
 @push('js')
     <script src="/js/trix.js"></script>
 @endpush
-
+@push('js')
+    <script src="/js/attachments.js"></script>
+@endpush
 @push('css')
     <link rel="stylesheet" href="/css/trix.css">
 @endpush

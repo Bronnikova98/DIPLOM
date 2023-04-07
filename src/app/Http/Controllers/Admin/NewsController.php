@@ -27,9 +27,9 @@ class NewsController extends Controller
         return view('admin.news.create');
     }
 
-    public function store()
+    public function store(Request $request)
     {
-        return 'Запрос создание поста';
+        echo $request->input('content');
     }
 
     public function show($post)
@@ -57,5 +57,30 @@ class NewsController extends Controller
     public function delete()
     {
         return 'Запрос удаление поста';
+    }
+
+    public function upload(Request $request)
+    {
+        if($request->hasFile('file')) {
+            
+            $filenamewithextension = $request->file('file')->getClientOriginalName();
+     
+            $filename = pathinfo($filenamewithextension, PATHINFO_FILENAME);
+     
+            
+            $extension = $request->file('file')->getClientOriginalExtension();
+     
+            
+            $filenametostore = $filename.'_'.time().'.'.$extension;
+     
+            
+            $request->file('file')->storeAs('src/public/images', $filenametostore);
+     
+            
+            $path = asset('src/storage/uploads/'.$filenametostore);
+     
+            echo $path;
+            exit;
+        }
     }
 }
